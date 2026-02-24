@@ -1,73 +1,52 @@
+<?php
+include 'db.php';
+include 'header.php';
+
+
+// Contact Form
+if(isset($_POST['contact_submit'])){
+    $name = $_POST['name'];
+    $phone = $_POST['phone'];
+    $address = $_POST['address'];
+    $service = $_POST['service'];
+    $message = $_POST['message'];
+
+    $query = "INSERT INTO contact(name, phone, address, service, message)
+              VALUES('$name','$phone','$address','$service','$message')";
+    mysqli_query($conn, $query);
+}
+
+// Band Form
+if(isset($_POST['band_submit'])){
+    $name = $_POST['b_name'];
+    $email = $_POST['b_email'];
+    $service = $_POST['b_service'];
+    $date = $_POST['b_date'];
+    $message = $_POST['b_message'];
+
+    $query = "INSERT INTO band(name,email,service,date,message)
+              VALUES('$name','$email','$service','$date','$message')";
+    mysqli_query($conn, $query);
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-     <!-- Bootstrap 5 CDN -->
+     <!-- Bootstrap  CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
      <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
         <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- responsive css -->
+     <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
     
-<!-- Top Bar -->
-<div class="top-bar py-2">
-  <div class="container">
-    <div class="row align-items-center text-center text-lg-start">
-      
-      <!-- Left Side -->
-      <div class="col-12 col-lg-8 mb-2 mb-lg-0">
-        <span class="me-3 d-inline-block">
-          <i class="fa-solid fa-phone me-1"></i> +91 76180 08934
-        </span>
 
-        <span class="me-3 d-inline-block">
-          <i class="fa-solid fa-phone me-1"></i> +91 89602 29497
-        </span>
-
-        <span class="d-none d-md-inline-block">
-          <i class="fa-solid fa-envelope me-1"></i> metronomeindia18@gmail.com
-        </span>
-      </div>
-
-      <!-- Right Side -->
-      <div class="col-12 col-lg-4 text-lg-end">
-        <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
-        <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
-        <a href="#" class="text-white me-3"><i class="fab fa-youtube"></i></a>
-        <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
-      </div>
-
-    </div>
-  </div>
-</div>
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg">
-    <div class="container-fluid">
-        <a href="#">
-            <img src="image/photo.webp" alt="">
-        </a>
-
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link" href="#">HOME</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">ABOUT</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">COURSES</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">GALLERY</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">CONTACT US</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">ONLINE CLASSES</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">REGISTRATION</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
 
  <!-- Hero Slider -->
 <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="4000">
@@ -247,7 +226,7 @@
         </div>
       </div>
 
-      <!-- Repeat same for next 3 cards -->
+     
       <!-- Card 4 -->
       <div class="col-lg-4 col-md-6 col-12">
         <div class="card instrument-card h-100">
@@ -362,22 +341,22 @@
         <div class="band-form">
           <h3 class="text-center mb-3">The Band</h3>
 
-          <form>
-            <input type="text" class="form-control mb-3" placeholder="Name">
-            <input type="email" class="form-control mb-3" placeholder="Email">
+          <form method="POST">
+            <input type="text" name="b_name" class="form-control mb-3" placeholder="Name">
+            <input type="email" name="b_email" class="form-control mb-3" placeholder="Email">
 
-            <select class="form-control mb-3">
+            <select name="b_service" class="form-control mb-3">
               <option>Services</option>
               <option>Piano</option>
               <option>Guitar</option>
               <option>Drums</option>
             </select>
 
-            <input type="date" class="form-control mb-3">
+            <input type="date" name="b_date" class="form-control mb-3">
 
-            <textarea class="form-control mb-3" rows="4" placeholder="Message"></textarea>
+            <textarea name="b_message" class="form-control mb-3" rows="4" placeholder="Message"></textarea>
 
-            <button class="btn send-btn w-100">Send Message</button>
+            <button name="band_submit" class="btn send-btn w-100">Send Message</button>
           </form>
         </div>
 
@@ -542,22 +521,22 @@
         <div class="contact-box">
           <h3>Let's Get In Touch</h3>
 
-          <form>
+          <form method="POST"> >
             <div class="row">
               <div class="col-md-6 mb-3">
-                <input type="text" placeholder="Name" class="form-control">
+                <input type="text" name="name" placeholder="Name" class="form-control">
               </div>
               <div class="col-md-6 mb-3">
-                <input type="text" placeholder="Phone" class="form-control">
+                <input type="text" name="phone" placeholder="Phone" class="form-control">
               </div>
             </div>
 
             <div class="mb-3">
-              <input type="text" placeholder="Address" class="form-control">
+              <input type="text" name="address" placeholder="Address" class="form-control">
             </div>
 
             <div class="mb-3">
-              <select class="form-control">
+              <select name="service" class="form-control">
                 <option>Services</option>
                 <option>Guitar</option>
                 <option>Piano</option>
@@ -566,10 +545,10 @@
             </div>
 
             <div class="mb-3">
-              <textarea rows="4" placeholder="Message" class="form-control"></textarea>
+              <textarea rows="4" name="message" placeholder="Message" class="form-control"></textarea>
             </div>
 
-            <button class="btn send-btn">Send Message</button>
+            <button name="contact_submit" class="btn send-btn">Send Message</button>
           </form>
         </div>
       </div>
@@ -587,91 +566,10 @@
     </div>
   </div>
 </section>
-<!-- footer -->
- <footer class="footer">
-  <div class="container">
-    <div class="row">
-
-      <!-- LEFT -->
-      <div class="col-lg-4 mb-4 metronome-section">
-  <div class="logo-box">
-    <img src="image/footer_logo.webp" alt="logo" style="height: 80px;">
-    
-  </div>
-
-  <p class="metro-text">
-    The Metronome is the supportive of musicians who understand that the best
-    art comesfrom the best environment.
-  </p>
-</div>
-
-      <!-- WORKING HOURS -->
-      <div class="col-lg-4 mb-4 working-hours">
-  <h4>Working Hours</h4>
-
-  <p class="time">Mon-sat: 10:00 am – 8:00 pm</p>
-
-  <div class="contact-item">
-    <i class="fas fa-phone-alt"></i>
-    <span>+91 89602 29497</span>
-  </div>
-
-  <div class="contact-item">
-    <i class="fas fa-phone-alt"></i>
-    <span>+91 76180 08934</span>
-  </div>
-
-  <div class="contact-item">
-    <i class="fas fa-envelope"></i>
-    <span>metronomeindia18@gmail.com</span>
-  </div>
-</div>
-
-      <!-- ADDRESS -->
-      <div class="col-lg-4 mb-4 address-section">
-  <h4>Address</h4>
-
-  <div class="address-item">
-    <i class="fas fa-map-marker-alt"></i>
-    <p>
-      3/237 Vipul Khand, Gomti Nagar, Lucknow - 226010,<br>
-      Near Scholars Home
-    </p>
-  </div>
-
-  <div class="address-item">
-    <i class="fas fa-map-marker-alt"></i>
-    <p>
-      <strong>Branch Address</strong> 5/14 B Vinay Khand,<br>
-      Near Gomti Nagar Rly Station, Gomti Nagar
-    </p>
-  </div>
-
-  <!-- SOCIAL ICONS -->
-  <div class="social-icons mt-3">
-    <a href="#"><i class="fab fa-instagram"></i></a>
-    <a href="#"><i class="fab fa-facebook-f"></i></a>
-    <a href="#"><i class="fab fa-google"></i></a>
-    <a href="#"><i class="fab fa-twitter"></i></a>
-  </div>
-</div>
-
-    </div>
-
-    <!-- LINE -->
-    <div class="footer-line"></div>
-
-    <!-- BOTTOM -->
-    <div class="footer-bottom">
-  <p>
-    Powered by <span>Mind You Infotech</span>
-  </p>
-</div>
-
-  </div>
-</footer>
 
 
+
+<?php include 'footer.php'; ?>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
