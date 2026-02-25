@@ -1,52 +1,17 @@
-<?php
-include 'db.php';
-include 'header.php';
-
-
-// Contact Form
-if(isset($_POST['contact_submit'])){
-    $name = $_POST['name'];
-    $phone = $_POST['phone'];
-    $address = $_POST['address'];
-    $service = $_POST['service'];
-    $message = $_POST['message'];
-
-    $query = "INSERT INTO contact(name, phone, address, service, message)
-              VALUES('$name','$phone','$address','$service','$message')";
-    mysqli_query($conn, $query);
-}
-
-// Band Form
-if(isset($_POST['band_submit'])){
-    $name = $_POST['b_name'];
-    $email = $_POST['b_email'];
-    $service = $_POST['b_service'];
-    $date = $_POST['b_date'];
-    $message = $_POST['b_message'];
-
-    $query = "INSERT INTO band(name,email,service,date,message)
-              VALUES('$name','$email','$service','$date','$message')";
-    mysqli_query($conn, $query);
-}
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-     <!-- Bootstrap  CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-        <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css">
-    <!-- responsive css -->
-     <link rel="stylesheet" href="css/responsive.css">
+<?php include 'header-link.php'; ?>
 </head>
 <body>
     
+<?php
+include 'header.php';
 
+?>
 
  <!-- Hero Slider -->
 <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="4000">
@@ -566,10 +531,4 @@ if(isset($_POST['band_submit'])){
     </div>
   </div>
 </section>
-
-
-
 <?php include 'footer.php'; ?>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>

@@ -1,17 +1,5 @@
 <?php
-include 'db.php';
 include 'header.php';
-if(isset($_POST['contact_submit'])){
-    $name = $_POST['name'];
-    $phone = $_POST['phone'];
-    $address = $_POST['address'];
-    $service = $_POST['service'];
-    $message = $_POST['message'];
-
-    $query = "INSERT INTO contact(name, phone, address, service, message)
-              VALUES('$name','$phone','$address','$service','$message')";
-    mysqli_query($conn, $query);
-}
 ?>
 <style>
     .dance-detail-section {
