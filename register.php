@@ -1,101 +1,14 @@
-<?php include 'header.php'; ?>
-<style>
-.register-section {
-  background: url('image/form_baner.webp') no-repeat center;
-  background-size: cover;
-  padding: 80px 0;
-  position: relative;
-}
-
-/* LIGHT OVERLAY */
-.register-section::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: rgba(255,255,255,0.8);
-}
-
-.register-section .container {
-  position: relative;
-  z-index: 2;
-}
-
-
-.register-title {
-  font-size: 42px;
-  font-weight: 700;
-  margin-bottom: 10px;
-}
-
-.register-subtitle {
-  color: #666;
-  max-width: 600px;
-  margin: auto;
-  margin-bottom: 40px;
-}
-
-
-.register-box {
-  background: #fff;
-  padding: 40px;
-  border-radius: 20px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-  text-align: left;
-  height: 90%;
-}
-
-/* INPUT */
-.input-group-text {
-  background: #eee;
-}
-
-.form-control {
-  height: 45px;
-}
-
-/* BUTTON */
-.custom-btn {
-  background: linear-gradient(90deg, #ff7a18, #ff3b47);
-  color: #fff;
-  padding: 12px;
-  border-radius: 10px;
-  font-weight: 600;
-  border: none;
-  transition: 0.3s;
-}
-
-.custom-btn:hover {
-  transform: translateY(-3px);
-  color: #fff;
-}
-@media (max-width: 576px) {
-  .dance-title {
-    font-size: 24px;
-  }
-
-  .dance-text {
-    font-size: 14px;
-  }
-}
-@media (max-width: 768px) {
-
-  .register-title {
-    font-size: 28px;
-  }
-
-  .register-box {
-    padding: 20px;
-  }
-
-  .custom-btn {
-    margin-bottom: 10px;
-  }
-}
-</style>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <?php include 'header-link.php'; ?>
+</head>
+<body>
+   <?php include 'header.php'; ?> 
+   <!-- content sections start -->
 <section class="register-section">
   <div class="container text-center">
 
@@ -162,5 +75,9 @@
 
   </div>
 </section>
+   <!-- content section end -->
+   <?php include 'footer.php'; ?>
+</body>
+</html>
 
-<?php include 'footer.php'; ?>
+

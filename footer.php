@@ -1,6 +1,4 @@
-<?php
-include 'header-link.php';
-?>
+
 <!-- footer -->
  <footer class="footer">
   <div class="container">

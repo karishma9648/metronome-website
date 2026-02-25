@@ -1,6 +1,4 @@
-<?php
-include 'header-link.php';
-?>
+
 <!-- Top Bar -->
 <div class="top-bar py-2">
   <div class="container">
