@@ -341,3 +341,278 @@
     height: 300px;
   }
 }
+
+/* ===== Navbar Styling ===== */
+.navbar-custom{
+    background:#f2f3f5;
+    padding: 18px 70px;
+}
+
+.navbar-nav{
+    gap: 28px;
+}
+
+.navbar-nav .nav-link{
+    font-weight:600;
+    color:#1f3b64 !important;
+    font-size:16px;
+}
+
+.navbar-nav .nav-link:hover{
+    color:#0d6efd !important;
+}
+
+/* Dropdown */
+.dropdown-menu{
+    border:none;
+    border-radius:10px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.08);
+}
+
+/* Admission Button */
+.admission-btn{
+    background:#1f3b64;
+    color:#fff !important;
+    padding:12px 26px;
+    border-radius:10px;
+    font-weight:600;
+}
+
+.admission-btn:hover{
+    background:#16304f;
+}
+
+/* Logo */
+.navbar-brand img{
+    height:45px;
+}
+
+/* Mobile Adjustments */
+@media(max-width:991px){
+
+    .navbar-custom{
+        padding:15px 20px;
+    }
+
+    .navbar-nav{
+        gap:15px;
+        margin-top:20px;
+    }
+
+    .admission-btn{
+        margin-top:15px;
+        display:inline-block;
+    }
+}
+
+.studio-section{
+    padding:120px 0;
+    background: #141415;
+}
+
+
+.studio-content{
+    padding-right:60px;
+}
+
+.studio-title{
+    font-size:44px;
+    font-weight:700;
+    background: linear-gradient(90deg,#7b2ff7,#ff6a00);
+   
+}
+
+.studio-subtitle{
+    font-size:28px;
+    font-weight:700;
+    color:#fff;
+    margin:25px 0;
+}
+
+.studio-text{
+    color:#cfcfcf;
+    font-size:18px;
+    line-height:1.9;
+}
+
+
+.studio-images{
+    position:relative;
+    display:flex;
+    justify-content:flex-end;
+}
+
+.studio-img-back{
+    width:75%;
+    border-radius:6px;
+}
+
+.studio-img-front{
+    position:absolute;
+    left:-80px;
+    top:50%;
+    transform:translateY(-50%);
+    width:55%;
+    border-radius:6px;
+    box-shadow:0 20px 40px rgba(0,0,0,0.6);
+}
+
+
+@media(max-width:991px){
+
+    .studio-content{
+        padding-right:0;
+        text-align:center;
+    }
+
+    .studio-title{
+        font-size:42px;
+    }
+
+    .studio-subtitle{
+        font-size:22px;
+    }
+
+    .studio-images{
+        justify-content:center;
+        margin-top:50px;
+    }
+
+    .studio-img-front{
+        position:relative;
+        left:0;
+        top:0;
+        transform:none;
+        width:100%;
+        margin-top:20px;
+    }
+
+    .studio-img-back{
+        width:100%;
+    }
+}
+/* ===== Section Background ===== */
+.courses-section{
+    /* background:#e9e9e9 url('https://www.transparenttextures.com/patterns/music.png'); */
+    padding:80px 0;
+}
+
+
+.courses-title{
+    font-size:48px;
+    font-weight:700;
+    color:#333;
+}
+
+.courses-subtitle{
+    color:#6c757d;
+    font-size:20px;
+    margin-top:10px;
+}
+
+
+.courses-card{
+    background:#f5f5f5;
+    border-radius:25px;
+    padding:50px;
+    margin-top:50px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.08);
+}
+
+
+.instrument-img{
+    max-width:100%;
+    height:auto;
+}
+
+
+.course-text{
+    font-size:18px;
+    color:#444;
+    line-height:1.8;
+}
+
+.view-btn{
+    background:linear-gradient(90deg,#ff7a18,#ffb347);
+    color:#fff;
+    border:none;
+    padding:12px 30px;
+    border-radius:10px;
+    margin-top:20px;
+    font-weight:600;
+}
+
+
+@media(max-width:991px){
+
+    .courses-title{
+        font-size:34px;
+    }
+
+    .courses-card{
+        padding:30px;
+    }
+
+    .course-text{
+        margin-top:30px;
+    }
+
+}
+.brands-section{
+    /* background:#d9d1bf url('https://www.transparenttextures.com/patterns/music.png'); */
+    padding:90px 0 40px 0;
+    position:relative;
+    overflow:hidden;
+    background-color: #8c8c8d;
+}
+
+
+.brands-title{
+    font-size:48px;
+    font-weight:700;
+    color:#333;
+}
+
+.brands-subtitle{
+    font-size:20px;
+    color:#555;
+    max-width:750px;
+    margin:15px auto 0 auto;
+    line-height:1.7;
+}
+
+
+.guitar-wrapper{
+    margin-top:60px;
+    text-align:left;
+}
+
+.guitar-img{
+    width:85%;
+    max-width:1100px;
+}
+
+
+@media(max-width:991px){
+
+    .brands-title{
+        font-size:32px;
+    }
+
+    .brands-subtitle{
+        font-size:16px;
+        padding:0 15px;
+    }
+
+    .guitar-wrapper{
+        text-align:center;
+        margin-top:40px;
+    }
+
+    .guitar-img{
+        width:100%;
+    }
+}
+
+
+

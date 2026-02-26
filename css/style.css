@@ -1,6 +1,6 @@
   /* Top Bar */
         .top-bar{
-            background: linear-gradient(45deg, #500574 30%, #560823 100%);
+            background: blueviolet;
             color: white;
             font-size: 18px;
             padding: 6px 0;
@@ -9,19 +9,9 @@
         .top-bar i{
             margin-right: 5px;
         }
-         /* Navbar */
-        .navbar{
-            background: #fff;
-        }
-
-        .navbar-nav .nav-link{
-            font-weight: 600;
-            margin-left: 20px;
-            color: #1a1a1a;
-        }
-
-        .navbar-nav .nav-link:hover{
-            color: purple;
+        .top-bar a{
+            color: white;
+            text-decoration: none;
         }
         /* sero section */
         

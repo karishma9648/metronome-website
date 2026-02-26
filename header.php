@@ -31,7 +31,7 @@
   </div>
 </div>
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg">
+<!-- <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
         <a href="#">
             <img src="image/photo.webp" alt="">
@@ -53,6 +53,77 @@
             </ul>
         </div>
     </div>
+</nav> -->
+ 
+<nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+    <div class="container-fluid">
+
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">
+            <img src="image/photo.webp" alt="Logo">
+        </a>
+
+        <!-- Mobile Toggle -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Menu -->
+        <div class="collapse navbar-collapse justify-content-center" id="navbarContent">
+            <ul class="navbar-nav align-items-lg-center">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.php">HOME</a>
+                </li>
+                 <li class="nav-item">
+                    <a class="nav-link" href="about.php">ABOUT</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                        COURSES
+
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="dance.php">Dance Class</a></li>
+                        <li><a class="dropdown-item" href="music.php">Music Class</a></li>
+                         <li><a class="dropdown-item" href="fitness.php">Fitness Class</a></li>
+                        <li><a class="dropdown-item" href="guitar.php">Guitar Class</a></li>
+                    </ul>
+                </li>
+
+               
+
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.php">GALLERY</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.php">CONTACT US</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="online-classes.php">ONLINE CLASSES</a>
+                </li>
+
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="register.php">REGISTRATION</a>
+                </li> -->
+
+            </ul>
+
+            <!-- Right Button -->
+            <div class="ms-lg-4 text-lg-start text-center">
+                <a href="register.php" class="admission-btn">
+                    REGISTRATION <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+
+        </div>
+    </div>
 </nav>
+   
+   
+
 
 
