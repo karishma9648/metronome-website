@@ -14,16 +14,14 @@
             text-decoration: none;
         }
         /* sero section */
-        
-        .hero-slide{
+     
+        /* .hero-slide{
     height: 80vh;
     min-height: 500px;
     position: relative;
     background-size: cover;
     background-position: center;
 }
-
-/* slider */
 .slide1{
     background-image: url('../image/slider.webp');
 }
@@ -59,7 +57,7 @@
 .hero-title{
     font-size: 3rem;
     font-weight: 700;
-}
+} */
 .about-section{
     background: #f8f9fa;
     top: 40%;
@@ -152,7 +150,21 @@
     color: white;
     opacity: 0.9;
 }
+.testimonial-card {
+  border-radius: 15px;
+  transition: 0.3s ease;
+  background: #fff;
+}
 
+.testimonial-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.testimonial-card img {
+  object-fit: cover;
+}
+/* 
 .cta-section {
   background: #2f2f35;
   padding: 90px 20px;
@@ -216,15 +228,15 @@
 .cta-offer span {
   color: #ff6a00;
   font-weight: bold;
-}
+} */
 
-.band-section {
+/* .band-section {
   background: #000;
   padding: 80px 0;
   color: #fff;
 }
 
-/* HEADING */
+
 .band-heading {
   font-size: 42px;
   font-weight: 700;
@@ -251,7 +263,7 @@
   border: 1px solid #aaa;
   font-size: 14px;
 }
-
+ */
 
 .send-btn {
   background: linear-gradient(to right, #ff6a00, #f9a825);
@@ -266,7 +278,7 @@
 }
 
 
-.band-text {
+/* .band-text {
   font-size: 15px;
   line-height: 1.7;
   color: #ccc;
@@ -276,12 +288,60 @@
 .band-img {
   max-height: 520px;
   object-fit: contain;
+} */
+ .live-concert {
+  background: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)),
+              url('https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f');
+  background-size: cover;
+  background-position: center;
+  
 }
 
-.faculty-section {
+.concert-img {
+  max-height: 350px;
+  object-fit: cover;
+}
+
+.concert-info i {
+  font-size: 16px;
+  
+}
+
+.live-concert h2 {
+  font-size: 2.2rem;
+  
+  
+ 
+}
+
+@media (max-width: 768px) {
+  .live-concert h2 {
+    font-size: 1.8rem;
+  }
+}
+
+ .faculty-card {
+  border-radius: 15px;
+  transition: 0.3s ease;
+  background: #fff;
+}
+
+.faculty-card:hover {
+  transform: translateY(-10px);
+}
+
+.faculty-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #f39c12;
+}
+
+/* .faculty-section {
   padding: 80px 0;
   background: #f5f5f5;
-  /* background-image: url('music-bg.png');  */
+  background-image: url('music-bg.png'); 
 }
 
 
@@ -327,7 +387,7 @@
 .faculty-card p {
   color: #777;
   font-size: 14px;
-}
+} */
 
 
 .social-icons i {
@@ -448,40 +508,7 @@
   align-items: center;
   margin-top: 15px;
 }
-.contact-section {
-  padding: 60px 0;
-  /* background: url('music-bg.png') repeat; */
-  background-color: #f5f5f5;
-}
 
-
-.contact-title {
-  font-size: 40px;
-  font-weight: bold;
-}
-
-.contact-subtitle {
-  color: gray;
-}
-
-/* FORM BOX */
-.contact-box {
-  background: #fff;
-  padding: 30px;
-  border-radius: 20px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-}
-
-.contact-box h3 {
-  margin-bottom: 20px;
-  font-weight: bold;
-}
-
-
-.form-control {
-  border-radius: 8px;
-  padding: 10px;
-}
 
 
 .send-btn {
@@ -551,24 +578,6 @@
 }
 
 
-.contact-item {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  margin-bottom: 10px;
-}
-
-
-.contact-item i {
-  color: orange;
-  font-size: 16px;
-}
-
-
-.contact-item span {
-  color: #fff;
-  font-size: 15px;
-}
 .address-section h4 {
   margin-bottom: 20px;
 }

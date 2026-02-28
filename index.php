@@ -5,8 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+
   <?php include 'header-link.php'; ?>
 </head>
+
 
 <body>
 
@@ -15,13 +17,13 @@
 
   ?>
 
-  <!-- Hero Slider -->
-  <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="4000">
+  <!-- Hero Slider--->
+  <!-- <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="4000">
 
-    <div class="carousel-inner">
+    <div class="carousel-inner"> -->
 
       <!-- Slide 1 -->
-      <div class="carousel-item active">
+      <!-- <div class="carousel-item active">
         <div class="hero-slide slide1 d-flex align-items-center">
           <div class="container text-center text-lg-start">
             <div class="hero-content">
@@ -34,10 +36,10 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <!-- Slide 2 -->
-      <div class="carousel-item">
+      <!-- <div class="carousel-item">
         <div class="hero-slide slide2 d-flex align-items-center">
           <div class="container text-center text-lg-start">
             <div class="hero-content">
@@ -50,10 +52,10 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <!-- Slide 3 -->
-      <div class="carousel-item">
+      <!-- <div class="carousel-item">
         <div class="hero-slide slide3 d-flex align-items-center">
           <div class="container text-center text-lg-start">
             <div class="hero-content">
@@ -78,7 +80,14 @@
       <span class="carousel-control-next-icon"></span>
     </button>
 
-  </div>
+  </div> -->
+  <section class="hero d-flex align-items-center text-center">
+    <div class="container">
+        <h1>Learn Music From Experts 🎵</h1>
+        <p class="mt-3">Guitar | Piano | Vocal | Drums Classes in Lucknow</p>
+        <a href="contact.php" class="btn btn-custom mt-4 px-4 py-2">Book Free Demo</a>
+    </div>
+</section>
   <!-- about section -->
   <section class="about-section py-5 ">
     <div class="container">
@@ -147,21 +156,21 @@
     </div>
   </section>
   <!-- instruments  -->
-  <section class="instruments-section py-5">
-    <div class="container text-center">
+  <!-- <section class="instruments-section py-5">
+    <div class="container text-center"> -->
 
       <!-- Heading -->
-      <h2 class="fw-bold">Instruments</h2>
+      <!-- <h2 class="fw-bold">Instruments</h2>
       <p class="text-muted mb-5">
         A little about the instruments at play at Metronome Music <br>
         And Arts Academy
-      </p>
+      </p> -->
 
       <!-- Cards Row -->
-      <div class="row g-4">
+      <!-- <div class="row g-4"> -->
 
         <!-- Card 1 -->
-        <div class="col-lg-4 col-md-6 col-12">
+        <!-- <div class="col-lg-4 col-md-6 col-12">
           <div class="card instrument-card h-100">
             <img src="image/metro2.webp" class="card-img-top" alt="Piano">
             <div class="card-body d-flex justify-content-between align-items-center">
@@ -169,10 +178,10 @@
               <a href="#" class="btn btn-orange">Know more</a>
             </div>
           </div>
-        </div>
+        </div> -->
 
         <!-- Card 2 -->
-        <div class="col-lg-4 col-md-6 col-12">
+        <!-- <div class="col-lg-4 col-md-6 col-12">
           <div class="card instrument-card h-100">
             <img src="image/metro4.webp" class="card-img-top" alt="Guitar">
             <div class="card-body d-flex justify-content-between align-items-center">
@@ -180,10 +189,10 @@
               <a href="#" class="btn btn-orange">Know more</a>
             </div>
           </div>
-        </div>
+        </div> -->
 
         <!-- Card 3 -->
-        <div class="col-lg-4 col-md-6 col-12">
+        <!-- <div class="col-lg-4 col-md-6 col-12">
           <div class="card instrument-card h-100">
             <img src="image/metro_3.webp" class="card-img-top" alt="Drums">
             <div class="card-body d-flex justify-content-between align-items-center">
@@ -191,11 +200,11 @@
               <a href="#" class="btn btn-orange">Know more</a>
             </div>
           </div>
-        </div>
+        </div> -->
 
 
         <!-- Card 4 -->
-        <div class="col-lg-4 col-md-6 col-12">
+        <!-- <div class="col-lg-4 col-md-6 col-12">
           <div class="card instrument-card h-100">
             <img src="image/flute.webp" class="card-img-top" alt="Violin">
             <div class="card-body d-flex justify-content-between align-items-center">
@@ -203,10 +212,10 @@
               <a href="#" class="btn btn-orange">Know more</a>
             </div>
           </div>
-        </div>
+        </div> -->
 
         <!-- Card 5 -->
-        <div class="col-lg-4 col-md-6 col-12">
+        <!-- <div class="col-lg-4 col-md-6 col-12">
           <div class="card instrument-card h-100">
             <img src="image/v_l.webp" class="card-img-top" alt="Violin">
             <div class="card-body d-flex justify-content-between align-items-center">
@@ -214,10 +223,10 @@
               <a href="#" class="btn btn-orange">Know more</a>
             </div>
           </div>
-        </div>
+        </div> -->
 
         <!-- Card 6 -->
-        <div class="col-lg-4 col-md-6 col-12">
+        <!-- <div class="col-lg-4 col-md-6 col-12">
           <div class="card instrument-card h-100">
             <img src="image/dlk.webp" class="card-img-top" alt="">
             <div class="card-body d-flex justify-content-between align-items-center">
@@ -225,9 +234,9 @@
               <a href="#" class="btn btn-orange">Know more</a>
             </div>
           </div>
-        </div>
+        </div> -->
         <!-- Card 7 -->
-        <div class="col-lg-4 col-md-6 col-12">
+        <!-- <div class="col-lg-4 col-md-6 col-12">
           <div class="card instrument-card h-100">
             <img src="image/tbla.webp" class="card-img-top" alt="">
             <div class="card-body d-flex justify-content-between align-items-center">
@@ -236,10 +245,10 @@
               <a href="#" class="btn btn-orange">Know more</a>
             </div>
           </div>
-        </div>
+        </div> -->
         <!-- Card 8 -->
 
-        <div class="col-lg-4 col-md-6 col-12">
+        <!-- <div class="col-lg-4 col-md-6 col-12">
           <div class="card instrument-card h-100">
             <img src="image/ukle.webp" class="card-img-top" alt="">
             <div class="card-body d-flex justify-content-between align-items-center">
@@ -247,9 +256,9 @@
               <a href="#" class="btn btn-orange">Know more</a>
             </div>
           </div>
-        </div>
+        </div> -->
         <!-- Card 9 -->
-        <div class="col-lg-4 col-md-6 col-12">
+        <!-- <div class="col-lg-4 col-md-6 col-12">
           <div class="card instrument-card h-100">
             <img src="image/hrmn.webp" class="card-img-top" alt="">
             <div class="card-body d-flex justify-content-between align-items-center">
@@ -261,14 +270,134 @@
 
       </div>
     </div>
-  </section>
+  </section> -->
+  <!-- Instruments Section -->
+<section class="instruments py-5">
+  <div class="container">
+
+    <div class="text-center mb-5">
+      <h2 class="fw-bold">Our Instruments Training</h2>
+      <p class="text-muted">Learn with Real Instruments & Expert Guidance</p>
+    </div>
+
+    <div class="row g-4">
+
+      <!-- Guitar -->
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="instrument-card shadow-sm h-100">
+          <div class="img-box">
+            <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d" alt="Guitar">
+          </div>
+          <div class="p-3 text-center">
+            <i class="fa-solid fa-guitar instrument-icon mb-2"></i>
+            <h6 class="fw-bold mb-0">Guitar</h6>
+          </div>
+        </div>
+      </div>
+
+      <!-- Piano -->
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="instrument-card shadow-sm h-100">
+          <div class="img-box">
+            <img src="https://images.unsplash.com/photo-1513883049090-d0b7439799bf" alt="Piano">
+          </div>
+          <div class="p-3 text-center">
+            <i class="fa-solid fa-music instrument-icon mb-2"></i>
+            <h6 class="fw-bold mb-0">Piano</h6>
+          </div>
+        </div>
+      </div>
+
+      <!-- Drums -->
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="instrument-card shadow-sm h-100">
+          <div class="img-box">
+            <img src="https://images.unsplash.com/photo-1519892300165-cb5542fb47c7" alt="Drums">
+          </div>
+          <div class="p-3 text-center">
+            <i class="fa-solid fa-drum instrument-icon mb-2"></i>
+            <h6 class="fw-bold mb-0">Drums</h6>
+          </div>
+        </div>
+      </div>
+
+      <!-- Violin -->
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="instrument-card shadow-sm h-100">
+          <div class="img-box">
+            <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba" alt="Violin">
+          </div>
+          <div class="p-3 text-center">
+            <i class="fa-solid fa-headphones instrument-icon mb-2"></i>
+            <h6 class="fw-bold mb-0">Violin</h6>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Guitar -->
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="instrument-card shadow-sm h-100">
+          <div class="img-box">
+            <img src="image/saxo.jpg" alt="Saxophone">
+          </div>
+          <div class="p-3 text-center">
+            <i class="fa-solid fa-music instrument-icon mb-2"></i>
+            <h6 class="fw-bold mb-0">Saxophone</h6>
+          </div>
+        </div>
+      </div>
+
+      <!-- Piano -->
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="instrument-card shadow-sm h-100">
+          <div class="img-box">
+            <img src="image/hh.jpg" alt="Harmonium">
+          </div>
+          <div class="p-3 text-center">
+            <i class="fa-solid fa-music instrument-icon mb-2"></i>
+            <h6 class="fw-bold mb-0">Harmonium</h6>
+          </div>
+        </div>
+      </div>
+
+      <!-- Drums -->
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="instrument-card shadow-sm h-100">
+          <div class="img-box">
+            <img src="image/tabla.png" alt="Tabla">
+          </div>
+          <div class="p-3 text-center">
+            <i class="fa-solid fa-drum instrument-icon mb-2"></i>
+            <h6 class="fw-bold mb-0">Tabla</h6>
+          </div>
+        </div>
+      </div>
+
+      <!-- Violin -->
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="instrument-card shadow-sm h-100">
+          <div class="img-box">
+            <img src="image/flute.png" alt="Flute">
+          </div>
+          <div class="p-3 text-center">
+            <i class="fa-solid fa-wind instrument-icon mb-2"></i>
+            <h6 class="fw-bold mb-0">Flute</h6>
+          </div>
+        </div>
+      </div>
+      
+
+    </div>
+
+  </div>
+</section>
   <!-- booking session -->
-  <section class="cta-section">
+  <!-- <section class="cta-section">
     <div class="container">
-      <div class="row align-items-center text-center text-lg-start">
+      <div class="row align-items-center text-center text-lg-start"> -->
 
         <!-- Left Content -->
-        <div class="col-lg-7 mb-4 mb-lg-0">
+        <!-- <div class="col-lg-7 mb-4 mb-lg-0">
           <h2 class="cta-title">
             Need a <span class="gradient-text">EXPERT</span> trainer..?
           </h2>
@@ -276,10 +405,10 @@
           <p class="cta-desc">
             We deliver the very best service and amenities signed artists and independent musicians.
           </p>
-        </div>
+        </div> -->
 
         <!-- Right Content -->
-        <div class="col-lg-5 text-center text-lg-end">
+        <!-- <div class="col-lg-5 text-center text-lg-end">
           <a href="#" class="cta-btn">
             <i class="fa-solid fa-phone me-2"></i> book session now
           </a>
@@ -291,20 +420,100 @@
 
       </div>
     </div>
-  </section>
+  </section> -->
+ <section class="testimonial-section py-5">
+  <div class="container">
+    <h2 class="text-center mb-5 fw-bold">What Our Students Say</h2>
+
+    <div class="row g-4">
+
+      <!-- Testimonial 1 -->
+      <div class="col-md-4">
+        <div class="testimonial-card text-center p-4 shadow-sm h-100">
+          
+          <img src="https://randomuser.me/api/portraits/women/44.jpg" 
+               class="rounded-circle mb-3" width="80" height="80" alt="student">
+
+          <p class="text-muted">
+            "Amazing experience! The teachers are very supportive and professional."
+          </p>
+
+        
+          <div class="mb-2 text-warning">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+
+          <h6 class="fw-bold mb-0">Priya Sharma</h6>
+        </div>
+      </div>
+
+      <!-- Testimonial 2 -->
+      <div class="col-md-4">
+        <div class="testimonial-card text-center p-4 shadow-sm h-100">
+          
+          <img src="https://randomuser.me/api/portraits/men/32.jpg" 
+               class="rounded-circle mb-3" width="80" height="80" alt="student">
+
+          <p class="text-muted">
+            "Best music academy in Lucknow. Highly recommended!"
+          </p>
+
+          <div class="mb-2 text-warning">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+
+          <h6 class="fw-bold mb-0">Rahul Verma</h6>
+        </div>
+      </div>
+
+      <!-- Testimonial 3 -->
+      <div class="col-md-4">
+        <div class="testimonial-card text-center p-4 shadow-sm h-100">
+          
+          <img src="https://randomuser.me/api/portraits/women/68.jpg" 
+               class="rounded-circle mb-3" width="80" height="80" alt="student">
+
+          <p class="text-muted">
+            "Great environment for learning music. Loved it!"
+          </p>
+
+          <div class="mb-2 text-warning">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+
+          <h6 class="fw-bold mb-0">Anjali Singh</h6>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
   <!-- contact  -->
-  <section class="band-section">
-    <div class="container">
+  <!-- <section class="band-section">
+    <div class="container"> -->
 
       <!-- TOP HEADING -->
-      <h1 class="band-heading text-center mb-5">
+      <!-- <h1 class="band-heading text-center mb-5">
         Book Live Concert/Event
       </h1>
 
-      <div class="row align-items-center">
+      <div class="row align-items-center"> -->
 
         <!-- LEFT FORM -->
-        <div class="col-lg-5 mb-4 mb-lg-0">
+        <!-- <div class="col-lg-5 mb-4 mb-lg-0">
           <div class="band-form">
             <h3 class="text-center mb-3">The Band</h3>
 
@@ -331,32 +540,88 @@
             The Metronome is the supportive of musicians who understand that the best art comes from the best environment.
             The Metronome is the supportive of musicians who understand that the best art comes from the best environment.
           </p>
-        </div>
+        </div> -->
 
         <!-- RIGHT IMAGE -->
-        <div class="col-lg-7 text-center">
+        <!-- <div class="col-lg-7 text-center">
           <img src="image/theband.webp" class="img-fluid band-img" alt="">
         </div>
 
       </div>
     </div>
-  </section>
+  </section> -->
+  <!-- Live Concert Section -->
+<section class="live-concert py-5 text-white">
+  <div class="container">
+    <div class="row align-items-center g-4">
+      
+      <!-- Left Content -->
+      <div class="col-lg-6 text-center text-lg-start">
+        
+        <span class="badge bg-warning text-dark mb-3 px-3 py-2">
+          <i class="fa-solid fa-bolt me-1"></i> Upcoming Event
+        </span>
+
+        <h2 class="fw-bold mb-3">
+          <i class="fa-solid fa-music me-2"></i>Live Musical Concert 2026
+        </h2>
+
+        <p class="mb-3">
+          Join us for an unforgettable evening of live performances by our talented
+          students and professional faculty.
+        </p>
+
+        <div class="concert-info mb-4">
+
+          <p class="mb-2">
+            <i class="fa-solid fa-calendar-days me-2 text-warning"></i>
+            15 March 2026
+          </p>
+
+          <p class="mb-2">
+            <i class="fa-solid fa-location-dot me-2 text-warning"></i>
+            Gomti Nagar, Lucknow
+          </p>
+
+          <p class="mb-2">
+            <i class="fa-solid fa-clock me-2 text-warning"></i>
+            6:00 PM Onwards
+          </p>
+
+        </div>
+
+        <a href="contact.php" class="btn btn-warning px-4 py-2">
+          <i class="fa-solid fa-ticket me-2"></i>Book Your Seat
+        </a>
+
+      </div>
+
+      <!-- Right Image -->
+      <div class="col-lg-6 text-center">
+        <img src="https://images.unsplash.com/photo-1506157786151-b8491531f063"
+             class="img-fluid rounded shadow concert-img"
+             alt="Live Concert">
+      </div>
+
+    </div>
+  </div>
+</section>
   <!-- faculty -->
-  <section class="faculty-section">
-    <div class="container">
+  <!-- <section class="faculty-section">
+    <div class="container"> -->
 
       <!-- HEADING -->
-      <div class="text-center mb-5">
+      <!-- <div class="text-center mb-5">
         <h1 class="faculty-title">Metronome Faculty</h1>
         <p class="faculty-subtitle">
           Faculty of Metronome Music And Arts Academy
         </p>
       </div>
 
-      <div class="row g-4">
+      <div class="row g-4"> -->
 
         <!-- CARD 1 -->
-        <div class="col-lg-3 col-md-6">
+        <!-- <div class="col-lg-3 col-md-6">
           <div class="faculty-card text-center">
             <img src="image/sir_1.webp" class="faculty-img" alt="">
             <h4>Neeraj Sir</h4>
@@ -368,10 +633,10 @@
               <i class="fab fa-twitter"></i>
             </div>
           </div>
-        </div>
+        </div> -->
 
         <!-- CARD 2 -->
-        <div class="col-lg-3 col-md-6">
+        <!-- <div class="col-lg-3 col-md-6">
           <div class="faculty-card text-center">
             <img src="image/sir_2.webp" class="faculty-img" alt="">
             <h4>Rahul Sir</h4>
@@ -383,10 +648,10 @@
               <i class="fab fa-twitter"></i>
             </div>
           </div>
-        </div>
+        </div> -->
 
         <!-- CARD 3 -->
-        <div class="col-lg-3 col-md-6">
+        <!-- <div class="col-lg-3 col-md-6">
           <div class="faculty-card text-center">
             <img src="image/sir_3.webp" class="faculty-img" alt="">
             <h4>Abhishek Sir</h4>
@@ -398,10 +663,10 @@
               <i class="fab fa-twitter"></i>
             </div>
           </div>
-        </div>
+        </div> -->
 
         <!-- CARD 4 -->
-        <div class="col-lg-3 col-md-6">
+        <!-- <div class="col-lg-3 col-md-6">
           <div class="faculty-card text-center">
             <img src="image/sir_4.webp" class="faculty-img" alt="">
             <h4>Rahul Sir</h4>
@@ -418,14 +683,14 @@
       </div>
 
     </div>
-  </section>
+  </section> -->
   <!-- expert -->
-  <section class="trainer-section">
+  <!-- <section class="trainer-section">
     <div class="container">
-      <div class="row align-items-center">
+      <div class="row align-items-center"> -->
 
         <!-- LEFT IMAGE -->
-        <div class="col-lg-4 mb-4">
+        <!-- <div class="col-lg-4 mb-4">
           <div class="trainer-card">
             <img src="image/neeraj.webp" class="img-fluid" alt="">
             <div class="trainer-caption">
@@ -433,10 +698,10 @@
               <p>Lucknow</p>
             </div>
           </div>
-        </div>
+        </div> -->
 
         <!-- RIGHT CONTENT -->
-        <div class="col-lg-8 text-white">
+        <!-- <div class="col-lg-8 text-white">
 
           <h2 class="trainer-title">
             Want to learn from expert Neeraj Sir
@@ -447,18 +712,18 @@
             He is also known as being the founder of Metronome Music And Arts Academy.
             Neeraj has performed at the topmost venues and with the best Rock bands over a career
             spanning 10 years so far.
-          </p>
+          </p> -->
 
           <!-- LOGOS -->
-          <div class="logo-row">
+          <!-- <div class="logo-row">
             <img src="image/trinity.webp">
             <img src="image/rock.webp">
             <img src="image/prayag.gif" style="height: 160px;">
             <img src="image/absrm.webp" style="height: 160px;">
-          </div>
+          </div> -->
 
           <!-- SOCIAL + BUTTON -->
-          <div class="trainer-actions">
+          <!-- <div class="trainer-actions">
             <div class="social-icons" style="color: #fff;">
               <i class="fab fa-instagram" style="font-size: 14px; margin-left: 300px;"></i>
               <i class="fab fa-facebook-f" style="font-size: 14px;"></i>
@@ -472,12 +737,110 @@
 
       </div>
     </div>
-  </section>
+  </section> -->
+  <!-- Faculty Section -->
+<section class="py-5 bg-white">
+  <div class="container">
+    
+    <div class="text-center mb-5">
+      <h2 class="fw-bold">Meet Our Expert Faculty</h2>
+      <p class="text-muted">Learn from Experienced & Certified Music Trainers</p>
+    </div>
+
+    <div class="row g-4">
+
+      <!-- Faculty 1 -->
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="faculty-card text-center p-4 shadow-sm h-100">
+          <img src="image/sir_1.webp" 
+               class="faculty-img mb-3" alt="Faculty">
+          <h5 class="fw-bold mb-1">Neeraj Sir</h5>
+          <p class="text-warning small mb-2">Guitar Specialist</p>
+          <p class="text-muted small">
+            10+ Years Experience in Classical & Modern Guitar Training.
+          </p>
+          <div class="social-icons">
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-twitter"></i>
+            </div>
+        </div>
+      </div>
+
+      <!-- Faculty 2 -->
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="faculty-card text-center p-4 shadow-sm h-100">
+          <img src="image/sir_2.webp" 
+               class="faculty-img mb-3" alt="Faculty">
+          <h5 class="fw-bold mb-1">Abhishek Sir</h5>
+          <p class="text-warning small mb-2">Vocal Coach</p>
+          <p class="text-muted small">
+            Expert in Indian Classical & Western Vocals.
+          </p>
+          <div class="social-icons">
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-twitter"></i>
+            </div>
+        </div>
+      </div>
+
+      <!-- Faculty 3 -->
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="faculty-card text-center p-4 shadow-sm h-100">
+          <img src="image/sir_3.webp" 
+               class="faculty-img mb-3" alt="Faculty">
+          <h5 class="fw-bold mb-1">Rahul Sir</h5>
+          <p class="text-warning small mb-2">Piano Instructor</p>
+          <p class="text-muted small">
+            Specialized in Trinity & ABRSM Piano Certification Training.
+          </p>
+          <div class="social-icons">
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-twitter"></i>
+            </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+   <!-- About Section -->
+<section class="py-5 bg-light">
+  <div class="container">
+    <div class="row align-items-center g-4">
+      
+      <div class="col-lg-6">
+        <img src="image/img1.jpeg"
+             class="img-fluid rounded shadow" alt="Music Class" style="height: auto;width: 100%;">
+      </div>
+
+      <div class="col-lg-6">
+        <h2 class="fw-bold mb-3">Why Choose Us?</h2>
+        <p class="text-muted">
+          We provide professional music training in Lucknow with experienced faculty 
+          and performance-based learning.
+        </p>
+
+        <ul class="list-unstyled">
+          <li>✔ Certified & Experienced Teachers</li>
+          <li>✔ Practical + Live Performance Training</li>
+          <li>✔ Flexible Batch Timings</li>
+          <li>✔ Affordable Fees</li>
+        </ul>
+
+        <a href="contact.php" class="btn btn-dark mt-3">Book Free Demo</a>
+      </div>
+
+    </div>
+  </div>
+</section>
   <!-- contact  -->
   <section class="contact-section">
     <div class="container text-center mb-5">
-      <h2 class="contact-title">Contact with us</h2>
-      <p class="contact-subtitle">Metronome Music And Arts Academy</p>
+      <h2 class="contact-title" style="color: #fff;">Contact with us</h2>
+      <p class="contact-subtitle" style="color: #fff;">Metronome Music And Arts Academy</p>
     </div>
 
     <div class="container">
@@ -488,7 +851,7 @@
           <div class="contact-box">
             <h3>Let's Get In Touch</h3>
 
-            <form method="POST"> >
+            <form method="POST"> 
               <div class="row">
                 <div class="col-md-6 mb-3">
                   <input type="text" name="name" placeholder="Name" class="form-control">

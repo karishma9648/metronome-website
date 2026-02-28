@@ -94,117 +94,60 @@
   </div>
 </section>
 
-<section class="trainer-section">
-  <div class="container">
-    <div class="row align-items-center">
 
-      <!-- LEFT IMAGE -->
-      <div class="col-lg-4 mb-4">
-        <div class="trainer-card">
-          <img src="image/neeraj.webp" class="img-fluid" alt="">
-          <div class="trainer-caption">
-            <h6>METRONOME MUSIC AND ARTS ACADEMY</h6>
-            <p>Lucknow</p>
-          </div>
+<!-- CONTACT -->
+<section class="contact-section">
+  <div class="container">
+    <h2 class="text-center text-white fw-bold mb-5">Contact Us 🎶</h2>
+
+    <div class="row justify-content-center">
+
+      <!-- Contact Form -->
+      <div class="col-lg-6">
+        <div class="contact-card">
+
+          <h5 class="fw-bold mb-4">Send Message</h5>
+
+          <form>
+            <input type="text" class="form-control mb-3" placeholder="Your Name" required>
+            <input type="email" class="form-control mb-3" placeholder="Your Email" required>
+            <input type="tel" class="form-control mb-3" placeholder="Your Phone" required>
+            <textarea class="form-control mb-3" rows="4" placeholder="Your Message"></textarea>
+
+            <button class="btn btn-warning w-100 btn-custom">Send Message</button>
+          </form>
+
         </div>
       </div>
 
-      <!-- RIGHT CONTENT -->
-      <div class="col-lg-8 text-white">
+      <!-- Contact Info -->
+      <div class="col-lg-4 mt-4 mt-lg-0">
+        <div class="contact-card">
 
-        <h2 class="trainer-title">
-         Want to learn from expert Neeraj Sir
-        </h2>
+          <h5 class="fw-bold mb-4">Get in Touch</h5>
 
-        <p class="trainer-text">
-          Neeraj (born july 27, 1994) is an ace Lead Guitarist, Performer and Guitar teacher.
-          He is also known as being the founder of Metronome Music And Arts Academy.
-          Neeraj has performed at the topmost venues and with the best Rock bands over a career
-          spanning 10 years so far.
-        </p>
+          <p><i class="fa-solid fa-location-dot icon-box"></i> Lucknow, Uttar Pradesh</p>
+          <p><i class="fa-solid fa-phone icon-box"></i> +91 89602 29497</p>
+          <p><i class="fa-brands fa-whatsapp icon-box"></i> +91 89602 29497</p>
+          <p><i class="fa-solid fa-envelope icon-box"></i> metronomeindia18@gmail.com</p>
 
-        <!-- LOGOS -->
-        <div class="logo-row">
-          <img src="image/trinity.webp">
-          <img src="image/rock.webp">
-          <img src="image/prayag.gif" style="height: 160px;" >
-          <img src="image/absrm.webp" style="height: 160px;">
+          <a href="https://wa.me/918960229497" class="btn btn-success w-100 mt-3">
+            Chat on WhatsApp
+          </a>
+
         </div>
-
-        <!-- SOCIAL + BUTTON -->
-        <div class="trainer-actions">
-          <div class="social-icons" style="color: #fff;">
-            <i class="fab fa-instagram" style="font-size: 14px; margin-left: 300px;" ></i>
-            <i class="fab fa-facebook-f" style="font-size: 14px;"></i>
-            <i class="fab fa-youtube" style="font-size: 14px;"></i>
-          </div>
-
-          <a href="#" class="btn read-btn">Read More</a>
-        </div>
-
       </div>
 
     </div>
   </div>
 </section>
-<!-- contact  -->
- <section class="contact-section">
-  <div class="container text-center mb-5">
-    <h2 class="contact-title">Contact with us</h2>
-    <p class="contact-subtitle">Metronome Music And Arts Academy</p>
-  </div>
 
+<!-- MAP BELOW -->
+<section class="map-section py-5">
   <div class="container">
-    <div class="row align-items-center">
+    <h3 class="text-center fw-bold mb-4">Find Us on Map 📍</h3>
 
-      <!-- LEFT FORM -->
-      <div class="col-lg-6 mb-4">
-        <div class="contact-box">
-          <h3>Let's Get In Touch</h3>
-
-          <form>
-            <div class="row">
-              <div class="col-md-6 mb-3">
-                <input type="text" placeholder="Name" class="form-control">
-              </div>
-              <div class="col-md-6 mb-3">
-                <input type="text" placeholder="Phone" class="form-control">
-              </div>
-            </div>
-
-            <div class="mb-3">
-              <input type="text" placeholder="Address" class="form-control">
-            </div>
-
-            <div class="mb-3">
-              <select class="form-control">
-                <option>Services</option>
-                <option>Guitar</option>
-                <option>Piano</option>
-                <option>Drums</option>
-              </select>
-            </div>
-
-            <div class="mb-3">
-              <textarea rows="4" placeholder="Message" class="form-control"></textarea>
-            </div>
-
-            <button class="btn send-btn">Send Message</button>
-          </form>
-        </div>
-      </div>
-
-      <!-- RIGHT MAP -->
-      <div class="col-lg-6">
-        <div class="map-box">
-          <iframe 
-            src="https://maps.google.com/maps?q=lucknow&t=&z=13&ie=UTF8&iwloc=&output=embed"
-            width="100%" height="400" style="border:0;" allowfullscreen>
-          </iframe>
-        </div>
-      </div>
-
-    </div>
+    <iframe src="https://www.google.com/maps?q=Lucknow&output=embed"></iframe>
   </div>
 </section>
 <?php include 'footer.php'; ?>

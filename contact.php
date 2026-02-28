@@ -9,82 +9,68 @@
 <body>
    <?php include 'header.php'; ?> 
    <!-- content sections start -->
-<section class="contact-map-sec">
+    <?php if(isset($_GET['success'])): ?>
+    <p style="color:green;">Message Sent Successfully ✅</p>
+<?php endif; ?>
 
-  <!-- CONTACT PART -->
-  <div class="contact-map-container">
+<?php if(isset($_GET['error'])): ?>
+    <p style="color:red;">Failed to send message ❌</p>
+<?php endif; ?>
+<!-- CONTACT -->
+<section class="contact-section">
+  <div class="container">
+    <h2 class="text-center text-white fw-bold mb-5">Contact Us 🎶</h2>
 
-    <!-- LEFT -->
-    <div class="cm-left">
-      <h2>Contact Us</h2>
-      <p class="cm-sub">Welcome to Metronome Music And Arts Academy</p>
+    <div class="row justify-content-center">
 
-      <div class="cm-item">
-        <div class="cm-icon"><i class="fa fa-phone"></i></div>
-        <div>
-          <h4>Contact Us</h4>
-          <p>+91 89602 29497 <br> +91 76180 08934</p>
+      <!-- Contact Form -->
+      <div class="col-lg-6">
+        <div class="contact-card">
+
+          <h5 class="fw-bold mb-4">Send Message</h5>
+
+  
+<form action="send.php" method="POST">
+            <input type="text" name="name" class="form-control mb-3" placeholder="Your Name" required>
+            <input type="email" name="email" class="form-control mb-3" placeholder="Your Email" required>
+            <input type="tel" name="phone" class="form-control mb-3" placeholder="Your Phone" required>
+            <textarea name="message" class="form-control mb-3" rows="4" placeholder="Your Message"></textarea>
+
+            <button class="btn btn-warning w-100 btn-custom" type="submit">Send Message</button>
+          </form>
+
         </div>
       </div>
 
-      <div class="cm-item">
-        <div class="cm-icon"><i class="fa fa-envelope"></i></div>
-        <div>
-          <h4>Mail Us</h4>
-          <p>metronomeindia18@gmail.com</p>
+      <!-- Contact Info -->
+      <div class="col-lg-4 mt-4 mt-lg-0">
+        <div class="contact-card">
+
+          <h5 class="fw-bold mb-4">Get in Touch</h5>
+
+          <p><i class="fa-solid fa-location-dot icon-box"></i> Lucknow, Uttar Pradesh</p>
+          <p><i class="fa-solid fa-phone icon-box"></i> +91 89602 29497</p>
+          <p><i class="fa-brands fa-whatsapp icon-box"></i> +91 89602 29497</p>
+          <p><i class="fa-solid fa-envelope icon-box"></i> metronomeindia18@gmail.com</p>
+
+          <a href="https://wa.me/918960229497" class="btn btn-success w-100 mt-3">
+            Chat on WhatsApp
+          </a>
+
         </div>
       </div>
 
-      <div class="cm-item">
-        <div class="cm-icon"><i class="fa fa-map-marker"></i></div>
-        <div>
-          <h4>Address</h4>
-          <p>3/237 Vipul Khand, Gomti Nagar, Lucknow - 226010</p>
-        </div>
-      </div>
-
-      <div class="cm-item">
-        <div class="cm-icon"><i class="fa fa-map-marker"></i></div>
-        <div>
-          <h4>Branch Address</h4>
-          <p>5/14 B Vinay Khand, Gomti Nagar</p>
-        </div>
-      </div>
     </div>
-
-    <!-- RIGHT FORM -->
-    <div class="cm-right">
-      <h2>Let's Get In Touch</h2>
-
-      <form>
-        <div class="cm-row">
-          <input type="text" placeholder="Name">
-          <input type="text" placeholder="Phone">
-        </div>
-
-        <div class="cm-row">
-          <input type="text" placeholder="Address">
-          <select>
-            <option>Services</option>
-          </select>
-        </div>
-
-        <textarea placeholder="Message"></textarea>
-
-        <button>Send Message</button>
-      </form>
-    </div>
-
   </div>
+</section>
 
-  <!-- MAP -->
-  <div class="cm-map">
-    <iframe 
-      src="https://www.google.com/maps?q=gomti+nagar+lucknow&output=embed"
-      allowfullscreen="" loading="lazy">
-    </iframe>
+<!-- MAP BELOW -->
+<section class="map-section py-5">
+  <div class="container">
+    <h3 class="text-center fw-bold mb-4">Find Us on Map 📍</h3>
+
+    <iframe src="https://www.google.com/maps?q=Lucknow&output=embed"></iframe>
   </div>
-
 </section>
    <!-- content section end -->
    <?php include 'footer.php'; ?>
